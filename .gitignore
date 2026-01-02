@@ -1,0 +1,28 @@
+# 민감한 정보가 포함된 파일
+*.secret
+*.key
+*.pem
+*.crt
+
+# 실제 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 로컬 테스트 파일
+test-*.yaml
+local-*.yaml
